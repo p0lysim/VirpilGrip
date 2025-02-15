@@ -10,11 +10,11 @@ Virpil bases use "MINI DIN 5P" connectors, wire your connector to your arduino a
 
 go to sketch / include library / Add .ZipLibrary
 
-then select the zip file you downloaded here from the release 
+then select the zip file you downloaded here from the release
 
 # Arduino code
 
-include the virpilgrip library 
+include the virpilgrip library
 
 ```
 #include <VirpilGrip.h>
@@ -26,7 +26,7 @@ declare a new VirpilGrip object :
 VirpilGrip _grip;
 ```
 
-Initialise the grip communication
+Initialize the grip communication
 
 ```
 _grip.Initialize();
@@ -38,7 +38,7 @@ Update the grip input in the loop()
 _grip.Set_Button(1, btn!status);
 ```
 
-Here is the complere example : 
+Here is the complere example :
 
 ```
 #include<VirpilGrip.h>
