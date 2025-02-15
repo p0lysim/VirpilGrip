@@ -17,7 +17,7 @@ then select the zip file you downloaded here from the release
 include the virpilgrip library 
 
 ```
-#include
+#include <VirpilGrip.h>
 ```
 
 declare a new VirpilGrip object :
