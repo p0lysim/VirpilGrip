@@ -40,7 +40,7 @@ Exported from the Fusion 360 model, in [`hardware/`](../hardware) (units: mm):
 
 | File | Content |
 |---|---|
-| [`STL/`](../hardware/STL) | One file per printed part: `shell_right`, `shell_left`, `ring_nut`, `tube`, `linker_left`, `linker_right`, `mount_reinforcement` |
+| [`STL/`](../hardware/STL) | One file per part: the printed parts `shell_right`, `shell_left`, `ring_nut`, `tube`, `linker_left`, `linker_right`, `mount_reinforcement`, and the electronics (not printed) `arduino_nano`, `thumbstick_module`, `push_button` |
 | [`STEP/demo_grip_assembly.step`](../hardware/STEP/demo_grip_assembly.step) | Full assembly, with the Arduino Nano, the thumbstick module and the push button |
 | [`3MF/`](../hardware/3MF) | Ready-to-print projects – coming soon |
 

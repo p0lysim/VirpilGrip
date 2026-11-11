@@ -10,7 +10,7 @@ Repository reorganisation – **the library code is unchanged**.
 - New illustrations: overview picture of the demo grip on a Virpil / Thrustmaster base, "how it works"
   diagram (SVG, light and dark themes) and a wiring diagram showing where the Arduino and the connector sit
   in the grip, the connector pinout and the Arduino Nano wiring.
-- 3D files of the demo grip in `hardware/`: STL of every printed part and STEP of the full assembly
+- 3D files of the demo grip in `hardware/`: STL of every part (printed parts and electronics) and STEP of the full assembly
   (3MF projects to come).
 - Development tools published in `extras/`: `GripReader` (reads a genuine grip), `SpiSlaveTest`
   and the PlatformIO development project.

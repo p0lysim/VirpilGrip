@@ -13,10 +13,15 @@ Exported from the Fusion 360 model, units: **mm**.
 | [`STL/tube.stl`](STL/tube.stl) | Ø 20 mm × 153 mm shaft |
 | [`STL/linker_left.stl`](STL/linker_left.stl), [`STL/linker_right.stl`](STL/linker_right.stl) | Linkers holding the tube in the nut |
 | [`STL/mount_reinforcement.stl`](STL/mount_reinforcement.stl) | Reinforcement fitted inside the top of the shells |
-| [`STEP/demo_grip_assembly.step`](STEP/demo_grip_assembly.step) | Full assembly: the parts above plus the Arduino Nano, the thumbstick module and the push button, to see where everything goes |
+| [`STL/arduino_nano.stl`](STL/arduino_nano.stl) | Arduino Nano (not printed) |
+| [`STL/thumbstick_module.stl`](STL/thumbstick_module.stl) | Analog thumbstick module (not printed) |
+| [`STL/push_button.stl`](STL/push_button.stl) | Ø 16 mm push button (not printed) |
+| [`STEP/demo_grip_assembly.step`](STEP/demo_grip_assembly.step) | Full assembly of all the parts above, to see where everything goes |
 | [`3MF/`](3MF) | Ready-to-print projects – coming soon |
 
 - The STL files keep their position in the assembly: lay each part flat in your slicer before printing.
+- `arduino_nano`, `thumbstick_module` and `push_button` are models of the electronic parts: do not print them,
+  they show where each part sits in the shells.
 - Open an STL file on GitHub to get an interactive 3D preview.
 - This folder is left out of the ZIP archives of the repository (**Code → Download ZIP**, release source code)
   to keep the library download small: download the files from here or clone the repository.
