@@ -72,8 +72,10 @@ Your sketch only reads its own switches and calls `Set_Button()`, `Set_JoystickV
 
 ### Arduino IDE
 
-1. Download this repository as a ZIP (**Code → Download ZIP**) or grab the ZIP of a
-   [release](https://github.com/p0lysim/VirpilGrip/releases).
+<a href="https://github.com/p0lysim/VirpilGrip/releases/latest/download/VirpilGrip.zip"><img src="docs/images/download-button.svg" alt="Download VirpilGrip (latest release, ZIP)" width="420"/></a>
+
+1. Download the ZIP of the latest release with the button above
+   (or this repository as a ZIP: **Code → Download ZIP**).
 2. In the Arduino IDE: **Sketch → Include Library → Add .ZIP Library…** and select the ZIP.
 3. The examples appear under **File → Examples → VirpilGrip**.
 

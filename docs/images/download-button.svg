@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="80" viewBox="0 0 420 80" role="img" aria-label="Download VirpilGrip, latest release, ZIP for the Arduino IDE">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#00a8ae"/>
+      <stop offset="1" stop-color="#00858b"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-20%" width="120%" height="160%">
+      <feDropShadow dx="0" dy="3" stdDeviation="3" flood-color="#000000" flood-opacity="0.22"/>
+    </filter>
+  </defs>
+
+  <!-- button -->
+  <rect x="4" y="3" width="412" height="68" rx="14" fill="url(#bg)" filter="url(#shadow)"/>
+  <rect x="4.75" y="3.75" width="410.5" height="66.5" rx="13.25" fill="none" stroke="#ffffff" stroke-opacity="0.25" stroke-width="1.5"/>
+
+  <!-- download icon -->
+  <circle cx="44" cy="37" r="23" fill="#ffffff" fill-opacity="0.16"/>
+  <g fill="none" stroke="#ffffff" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M44,24 L44,41"/>
+    <path d="M36.5,34 L44,41.5 L51.5,34"/>
+    <path d="M33,45 L33,49 L55,49 L55,45"/>
+  </g>
+
+  <!-- label -->
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" fill="#ffffff">
+    <text x="82" y="35" font-size="23" font-weight="700">Download VirpilGrip</text>
+    <text x="82" y="57" font-size="14.5" fill-opacity="0.9">Latest release · ZIP for the Arduino IDE</text>
+  </g>
+</svg>
