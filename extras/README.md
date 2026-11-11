@@ -1,13 +1,14 @@
-# Extras – development tools
+# Extras – development tools and demo grip
 
 Nothing in this folder is compiled by the Arduino IDE when the library is installed: these are the tools
-that were used to build it.
+that were used to build it, and the 3D files of the demo grip.
 
 | Folder | What it is |
 |---|---|
 | [`GripReader/`](GripReader/GripReader.ino) | Reads a **genuine Virpil grip** from an Arduino (the Arduino plays the base). This is how the frame and the bit map were reverse engineered. |
 | [`SpiSlaveTest/`](SpiSlaveTest/SpiSlaveTest.ino) | The very first proof of concept: a minimal SPI slave that answers fixed bytes. |
 | [`platformio/`](platformio) | PlatformIO / VS Code project used to develop and test the library. |
+| [`demo_grip/`](demo_grip) | STL and STEP files of the [demo grip](../docs/DEMO_GRIP.md), a 3D-printed grip to test the library (3MF projects coming soon). |
 
 ## GripReader
 

@@ -68,6 +68,12 @@ Your sketch only reads its own switches and calls `Set_Button()`, `Set_JoystickV
 
 > ⚠️ Check the voltage of your base with a multimeter before connecting anything.
 
+### Demo grip
+
+To test the library, print the **[demo grip](docs/DEMO_GRIP.md)**: an Arduino Nano, an analog thumbstick and a
+push button in a 3D-printed shell, running the [`complete_grip`](examples/complete_grip/complete_grip.ino) example.
+STL and STEP files: [`extras/demo_grip`](extras/demo_grip).
+
 ## Installation
 
 ### Arduino IDE
