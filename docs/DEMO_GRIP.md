@@ -1,7 +1,7 @@
 # Demo grip
 
 A 3D-printed grip designed in Fusion 360 to demonstrate the library on a real Virpil base.
-The STL and STEP files are in [`extras/demo_grip`](../extras/demo_grip). It runs the [`complete_grip`](../examples/complete_grip/complete_grip.ino) example.
+The STL and STEP files are in [`hardware/`](../hardware). It runs the [`complete_grip`](../examples/complete_grip/complete_grip.ino) example.
 
 | Outside | Inside (left shell hidden) | Side |
 |---|---|---|
@@ -36,12 +36,12 @@ The thumbstick and the button are reported to the base as the grip's thumbstick 
 
 ## 3D files
 
-Exported from the Fusion 360 model, in [`extras/demo_grip`](../extras/demo_grip) (units: mm):
+Exported from the Fusion 360 model, in [`hardware/`](../hardware) (units: mm):
 
 | File | Content |
 |---|---|
-| [`STL/`](../extras/demo_grip/STL) | One file per printed part: `shell_right`, `shell_left`, `ring_nut`, `tube`, `linker_left`, `linker_right`, `mount_reinforcement` |
-| [`STEP/demo_grip_assembly.step`](../extras/demo_grip/STEP/demo_grip_assembly.step) | Full assembly, with the Arduino Nano, the thumbstick module and the push button |
-| [`3MF/`](../extras/demo_grip/3MF) | Ready-to-print projects – coming soon |
+| [`STL/`](../hardware/STL) | One file per printed part: `shell_right`, `shell_left`, `ring_nut`, `tube`, `linker_left`, `linker_right`, `mount_reinforcement` |
+| [`STEP/demo_grip_assembly.step`](../hardware/STEP/demo_grip_assembly.step) | Full assembly, with the Arduino Nano, the thumbstick module and the push button |
+| [`3MF/`](../hardware/3MF) | Ready-to-print projects – coming soon |
 
 The STL files keep their position in the assembly: lay each part flat in your slicer before printing.

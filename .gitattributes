@@ -5,4 +5,4 @@
 
 # Keep the 3D files out of the ZIP archives (Code -> Download ZIP, release source code)
 # so that the library download stays small. They stay browsable and downloadable on GitHub.
-extras/demo_grip export-ignore
+hardware export-ignore

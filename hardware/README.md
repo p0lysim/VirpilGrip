@@ -1,7 +1,7 @@
-# Demo grip – 3D files
+# Hardware – demo grip 3D files
 
-The 3D files of the [demo grip](../../docs/DEMO_GRIP.md), a simple 3D-printed grip made to test the library on a
-real base. It runs the [`complete_grip`](../../examples/complete_grip/complete_grip.ino) example.
+The 3D files of the [demo grip](../docs/DEMO_GRIP.md), a simple 3D-printed grip made to test the library on a
+real base. It runs the [`complete_grip`](../examples/complete_grip/complete_grip.ino) example.
 
 Exported from the Fusion 360 model, units: **mm**.
 
