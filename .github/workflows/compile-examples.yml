@@ -1,0 +1,27 @@
+name: Compile examples
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  compile:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        fqbn:
+          - arduino:avr:uno
+          - arduino:avr:nano
+          - arduino:avr:micro
+          - arduino:avr:leonardo
+    steps:
+      - uses: actions/checkout@v4
+      - uses: arduino/compile-sketches@v1
+        with:
+          fqbn: ${{ matrix.fqbn }}
+          libraries: |
+            - source-path: ./
+          sketch-paths: |
+            - examples

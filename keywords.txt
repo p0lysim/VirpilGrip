@@ -1,0 +1,43 @@
+#######################################
+# Syntax Coloring Map for VirpilGrip
+# (fields must be separated by a single TAB)
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+VirpilGrip	KEYWORD1
+Direction	KEYWORD1
+Intensity	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+Initialize	KEYWORD2
+Stop	KEYWORD2
+Clear	KEYWORD2
+Set_Button	KEYWORD2
+Set_Hat4direction	KEYWORD2
+Set_Hat2direction	KEYWORD2
+Set_WheelIncrease	KEYWORD2
+Set_WheelDecrease	KEYWORD2
+Set_JoystickValue	KEYWORD2
+Set_BreakValue	KEYWORD2
+Set_FireButton	KEYWORD2
+Print	KEYWORD2
+printBits	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
+IDLE	LITERAL1
+UP	LITERAL1
+DOWN	LITERAL1
+LEFT	LITERAL1
+RIGHT	LITERAL1
+NONE	LITERAL1
+SOFT	LITERAL1
+HARD	LITERAL1
